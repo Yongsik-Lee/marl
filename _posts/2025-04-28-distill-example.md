@@ -1,11 +1,11 @@
 ---
 layout: distill
-title: AI810 Blog Post (20205266)
+title: AI810 Blog Post_test (20205266)
 description: I review two papers, Regulatory DNA Sequence Design with Reinforcement Learning and Generator matching: Generative modeling with arbitrary markov processes.
 date: 2025-04-28
 future: true
 htmlwidgets: true
-#hidden: false
+hidden: false
 
 # Anonymize when submitting
 # authors:

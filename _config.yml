@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: AI810_Geometric Deep Learning # the website title (if blank, full name will be used instead)
+title: AI810_Geometric Deep Learning_test # the website title (if blank, full name will be used instead)
 first_name: ICLR
 middle_name: 
 last_name: Blog
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: iclr_favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://yongsik-lee.github.io # the base hostname & protocol for your site
-baseurl: /ai810-gdl # the subpath of your site, e.g. /blog/
+baseurl: /marl # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -111,7 +111,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blogpost # blog_name will be displayed in your blog page
+blog_name: Blogpost_test # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: AI810 Assignment
 permalink: /blog/:title/

@@ -26,7 +26,7 @@ pagination:
   {% if site.display_tags %}
   <div class="tag-list">
     <ul class="p-0 m-0">
-      {% for tag in pagination.display_tags %}
+      {% for tag in site.display_tags %}
         <li>
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
         </li>
@@ -39,7 +39,7 @@ pagination:
   {% endif %}
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in pagination.posts %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}

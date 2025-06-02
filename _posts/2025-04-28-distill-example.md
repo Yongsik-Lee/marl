@@ -26,6 +26,7 @@ bibliography: 2025-04-28-distill-example.bib
 #     for hyperlinks within the post to work correctly. 
 #   - please use this format rather than manually creating a markdown table of contents.
 toc:
+  - name: Introduction
   - name: Regulatory DNA Sequence Design with Reinforcement Learning  
     subsections:
     - name: Overview
@@ -38,6 +39,7 @@ toc:
     - name: Method
     - name: Results
     - name: Personal Take & Commentary
+  - name: Takeaways
 
 # Below is an example of injecting additional post-specific styles.
 # This is used in the 'Layouts' section of this post.
@@ -58,6 +60,16 @@ _styles: >
     font-size: 16px;
   }
 ---
+
+
+# Introduction
+
+This review pairs two thematically distinct yet intellectually adjacent papers: “Regulatory DNA Sequence Design with Reinforcement Learning” and “Generator Matching: Generative Modeling with Arbitrary Markov Processes.” While one operates in the domain of biological sequence design and the other in foundational generative modeling, both tackle a common question at the heart of intelligent system design: how can we guide generative processes using structured priors and dynamic feedback?
+
+The first paper explores how reinforcement learning—augmented with biological knowledge—can improve the optimization of cis-regulatory DNA sequences, a crucial problem in synthetic biology. The second paper introduces a unifying mathematical framework for generative modeling through the lens of parameterized Markov processes, offering a flexible alternative to existing paradigms like diffusion and flow models.
+
+From the vantage point of RL and LLM-based agents, both works offer rich insights. TACO (Paper 1) exemplifies reward shaping and policy optimization in a constrained generative environment, while Generator Matching (Paper 2) provides a theoretical scaffold for modeling and composing stochastic transitions—akin to environment dynamics in model-based RL or planning behaviors in complex multi-agent systems. Despite addressing different domains, both papers converge on a shared ambition: to systematically construct or adapt generative mechanisms toward target outcomes using theoretically grounded tools.
+
 
 # Regulatory DNA Sequence Design with Reinforcement Learning  
 
@@ -317,3 +329,16 @@ Furthermore, the **Bregman divergence-based CGM loss** generalizes many losses u
 ## 📌 TL;DR
 
 **Generator Matching** presents a mathematically elegant and theoretically rich foundation for generative modeling using arbitrary Markov processes. It unifies existing methods under a cohesive framework and introduces powerful new design principles, particularly in combining and composing generative models across modalities and mechanisms. While practical challenges remain, especially concerning jump-based sampling and training, the framework opens exciting avenues for applications in RL, LLMs, and beyond.
+
+
+
+
+# Conclusion
+
+Both papers, though rooted in different problem domains, demonstrate how structured guidance—whether in the form of reward functions or stochastic generators—can profoundly influence generative performance. TACO operationalizes reinforcement learning with interpretable, biologically grounded reward shaping, showing how domain priors can lead to both better optimization and greater output diversity. Generator Matching, on the other hand, reimagines generative modeling itself as a problem of parameterizing transitions in a Markovian space, offering a versatile and modular approach to synthesizing data across modalities.
+
+For researchers in reinforcement learning and LLM-based agents, these works offer complementary lessons. TACO echoes challenges in offline RL and exploration under uncertainty—issues also central to agent design in partially observable or data-scarce environments. Generator Matching suggests a formalism for model-based generation and planning, with intriguing implications for LLMs as stochastic transformers of information states, potentially inspiring new agent design strategies based on generator composition.
+
+Finally, from a multi-agent systems perspective, both methods hint at future directions: in TACO, one could envision population-based or competitive optimization of DNA sequences; in Generator Matching, the compositionality of generators suggests a modular approach to modeling heterogeneous agent behaviors or hybrid continuous-discrete action spaces.
+
+Together, these papers underscore a powerful trend: bridging generative modeling with policy design, whether for biology, vision, or intelligent agents. Their relevance spans from synthetic cells to synthetic cognition—united by a shared focus on controlled, high-fidelity generation in structured environments.

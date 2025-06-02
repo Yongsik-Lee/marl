@@ -53,10 +53,7 @@ _styles: >
   }
 ---
 
-# 🧬 Regulatory DNA Sequence Design with Reinforcement Learning  
-_Authors: Zhao Yang, Bing Su, Chuan Cao, Ji-Rong Wen_
-
----
+# Regulatory DNA Sequence Design with Reinforcement Learning  
 
 ## Overview
 

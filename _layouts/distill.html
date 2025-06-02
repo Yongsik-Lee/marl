@@ -168,6 +168,7 @@ ${academicLFI}, "${title}", ICLR Blogposts, 2025.
 
     <d-bibliography src="{{ page.bibliography | prepend: '/assets/bibliography/' | relative_url }}"></d-bibliography>
 
+{%- comment -%}
     <d-article id="bibtex-container" class="related highlight">
       For attribution in academic contexts, please cite this work as
       <pre id="bibtex-academic-attribution">
@@ -179,6 +180,7 @@ ${academicLFI}, "${title}", ICLR Blogposts, 2025.
         PLACEHOLDER FOR BIBTEX
   </pre>
     </d-article>
+{%- endcomment -%}
 
 
     <script src="https://utteranc.es/client.js"

@@ -7,7 +7,7 @@ description: Your blog post's abstract.
 date: 2025-04-28
 future: true
 htmlwidgets: true
-hidden: true
+hidden: false
 
 # Anonymize when submitting
 # authors:

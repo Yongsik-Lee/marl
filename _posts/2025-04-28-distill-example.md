@@ -39,7 +39,7 @@ toc:
     - name: Method
     - name: Results
     - name: Personal Take & Commentary
-  - name: Takeaways
+  - name: Conclusion
 
 # Below is an example of injecting additional post-specific styles.
 # This is used in the 'Layouts' section of this post.

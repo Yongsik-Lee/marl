@@ -33,7 +33,7 @@ toc:
     - name: Method
     - name: Results
     - name: Personal Take & Commentary
-  - name: Generator Matching: Generative Modeling with Arbitrary Markov Processes
+  - name: Generator Matching Generative Modeling with Arbitrary Markov Processes
     subsections:
     - name: Overview
     - name: Method

@@ -1,9 +1,7 @@
 ---
 layout: distill
 title: AI810 Blog Post (20205266)
-description: Your blog post's abstract.
-  Please add your abstract or summary here and not in the main body of your text. 
-  Do not include math/latex or hyperlinks.
+description: This blogpost reviews two ICLR 2025 papers: one on RL-guided DNA sequence design (TACO), and another on a unified generative modeling framework based on Markov processes (Generator Matching). Though from different domains, both highlight how structured priors and guided dynamics improve generative outcomes. Their pairing reveals shared insights relevant to reinforcement learning and LLM-based agents, especially in offline optimization, reward shaping, and multi-agent compositionality. For researchers in intelligent agent design, these works offer complementary views on controllable generation—whether in biology, vision, or language.
 date: 2025-04-28
 future: true
 htmlwidgets: true

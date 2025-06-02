@@ -75,7 +75,7 @@ This paper introduces **TACO (TFBS-Aware Cis-regulatory element Optimization)**,
 - Integration of TFBS knowledge to inform and steer sequence optimization.
 - Comprehensive experiments across yeast and human datasets demonstrating improved performance and diversity.
 
----
+
 
 ## Method
 
@@ -100,7 +100,7 @@ where $r_{\text{TFBS}}(t) = \alpha \cdot \mu_{\phi}(t)$ if $p\text{-value} < 0.0
 
 Optimization uses **REINFORCE** with entropy regularization and a **hill-climbing replay buffer**, enhancing exploration and guiding the agent toward biologically meaningful regions of sequence space.
 
----
+
 
 ## Results
 
@@ -141,7 +141,7 @@ Notably, TACO's use of **biologically informed rewards** enabled it to escape lo
 - **Fitness oracle is assumed accurate**: Real-world biological validation is absent.
 - **Generality across organisms**: Not yet demonstrated outside yeast/human.
 
----
+
 
 ## Personal Take & Commentary
 
@@ -164,7 +164,7 @@ Moreover, the method’s ability to balance **exploration (diversity)** and **ex
 - The **lack of experimental wet-lab validation** leaves the practical impact of the method speculative, though this is a systemic issue in computational biology.
 - The method could benefit from **probabilistic modeling of biological constraints**, perhaps by fusing the AR model with a **variational framework**.
 
----
+
 
 ## 🌟 TL;DR
 
